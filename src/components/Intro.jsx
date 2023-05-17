@@ -10,13 +10,13 @@ function Intro() {
             <br />
             Check out my tutoring website! {''}
             <a
-               href="https://zachabdulrahmantutoring.org"
+               href="https://zachabdulrahmantutoring.godaddysites.com/"
                target="_blank"
-               className="text-red-700 hover:underline underline-offset-2 decoration-2 decoration-red-600"
+               className="text-red-700 hover:underline underline-offset-2 decoration-2 decoration-red-700"
                rel="noreferrer noopener"
             >
-               ZachAbdulrahman
-            </a>{' '}
+              <u> Here </u> 
+            </a>{''}
             
          </p>
       </div>

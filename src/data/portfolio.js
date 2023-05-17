@@ -9,7 +9,7 @@ export default [
        title: 'Developer Portfolio',
        imgUrl: '/assets/pf.png',
        stack: ['React', 'Tailwind', 'TypeScript'],
-       link: '',
+       link: 'https://github.com/Zacharahman/Portfolio.git',
     },
     {
        title: 'Virtual Bench Software',
@@ -32,7 +32,7 @@ export default [
      {
         title: 'Stock Trading Bot',
         imgUrl: '/assets/tb.png',
-        stack: ['AWS', 'API', 'Python'],
+        stack: ['AWS', 'API', 'Python', 'Postman'],
         link: 'https://github.com/Zacharahman/Trading-Bot.git',
      },
  ]
