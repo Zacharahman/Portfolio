@@ -1,44 +1,30 @@
 import React from 'react';
-import Title from './Title';
 
-function Contact() {
+function PortfolioItem({ title, imgUrl, stack, link }) {
    return (
-      <div className="flex flex-col mb-10 mx-auto">
-         <div className="flex justify-center items-center">
-            <form
-               action="https://getform.io/f/4dc0c49c-a9a0-475a-9483-e9054d3ff388"
-               method="POST"
-               className="flex flex-col w-full md:w-7/12"
-            >
-               <Title>Contact</Title>
-               <input
-                  type="text"
-                  name="name"
-                  placeholder="Name"
-                  className="p-2 bg-transparent border-2 rounded-md focus:outline-none"
-               />
-               <input
-                  type="text"
-                  name="email"
-                  placeholder="Email"
-                  className="my-2 p-2 bg-transparent border-2 rounded-md focus:outline-none"
-               />
-               <textarea
-                  name="message"
-                  placeholder="Message"
-                  rows="10"
-                  className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none"
-               />
-               <button
-                  type="button"
-                  className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-yellow-500 to-pink-500 drop-shadow-md hover:stroke-white"
-               >
-                  Work With Me
-               </button>
-            </form>
+      <a 
+         href={link}
+         target="_blank"
+         rel="noopener noreferrer"
+         className="border-2 border-stone-900 dark:border-white rounded-md overflow-hidden"
+      >
+         <img
+            src={imgUrl}
+            alt="portfolio" 
+            className="w-full h-36 md:h-48 object-cover cursor-pointer"
+         />
+         <div className="w-full p-4">
+            <h3 className="text-lg md:text-xl dark:text-white mb-2 md:mb-3 font-semibold ">{title}</h3>
+            <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm dark:text-white ">
+               {stack.map(item => (
+                  <span className="inline-block px-2 py-1 font-semibold border-2 border-stone-900 dark:border-white rounded-md">
+                     {item}
+                  </span>
+               ))}
+            </p>
          </div>
-      </div>
+      </a>
    )
 }
 
-export default Contact;
+export default PortfolioItem;
