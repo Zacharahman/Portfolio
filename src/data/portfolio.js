@@ -23,12 +23,13 @@ export default [
         stack: ['Python', 'AI', 'Pytorch'],
         link: 'http://deepcube.igb.uci.edu/',
      },
+
      {
-        title: 'Mathematical Research',
-        imgUrl: '/assets/Research.png',
-        stack: ['Mathematics', 'Computational Biology', 'Research'],
-        link: 'https://ui.adsabs.harvard.edu/abs/2017AcMSn..33..250L/abstract',
-     },
+      title: 'Mathematical Research',
+      imgUrl: '/assets/Research2.png',
+      stack: ['Applied Mathematics', 'Computational Neuroscience', 'C', 'Differential Equations', 'Applied Analysis'],
+      link: 'https://link.springer.com/article/10.1007/s10827-011-0339-7',
+   },
      {
         title: 'Stock Trading Bot',
         imgUrl: '/assets/tb.png',
