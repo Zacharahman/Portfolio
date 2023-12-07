@@ -7,25 +7,32 @@ export default [
         'University of South Carolina'
     },
     {
-       year: 'Today',
+        year: 'Today',
+        title: 'Mathematics Researcher',
+        duration: '8 mos',
+        details:
+        'Optimizing Computational Neuroscience Models'
+    },
+    {
+        year: 'Today',
+        title: 'STEM Tutor',
+        duration: '4 years',
+        details:
+        'Freelance STEM Tutor'
+     },
+    {
+       year: '2023',
        title: 'Software Engineer Intern',
        duration: '1 year',
        details: 
        'Full stack software engineer internship with Fivable Tech Company'
     },
     {
-         year: 'Today',
+         year: '2023',
          title: 'Full Stack Developer',
          duration: '2 years',
          details:
          'UofSC DoT full stack developer including web & app development'
-     },
-     {
-        year: 'Today',
-        title: 'STEM Tutor',
-        duration: '4 years',
-        details:
-        'Freelance STEM Tutor'
      },
      {
          year: '2022',
@@ -41,13 +48,7 @@ export default [
         details:
         'Undergraduate research assistant for Artificial Intelligence Institute of UofSC'
     },
-    {
-        year: '2021',
-        title: 'DevOps Intern',
-        duration: '8 mos',
-        details:
-        'DevOps student intern at Honeywell Tech'
-    },
+
      
     //  {
     //     year: 'Today',
