@@ -26,9 +26,9 @@ export default [
 
      {
       title: 'Mathematical Research',
-      imgUrl: '/assets/Research2.png',
-      stack: ['Applied Mathematics', 'Computational Neuroscience', 'C', 'Differential Equations', 'Applied Analysis'],
-      link: 'https://link.springer.com/article/10.1007/s10827-011-0339-7',
+      imgUrl: '/assets/GLIF.png',
+      stack: ['Applied Mathematics', 'Computational Neuroscience', 'C', 'MatLab', 'Differential Equations'],
+      link: 'https://github.com/Zacharahman/GLIF',
    },
      {
         title: 'Stock Trading Bot',
