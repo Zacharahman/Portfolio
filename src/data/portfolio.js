@@ -1,10 +1,11 @@
 export default [
-    {
-       title: 'Aedes Mobile Appliclation',
-       imgUrl: '/assets/AEDES.png',
-       stack: ['Vue', 'JavaScript', 'Node.js'],
-       link: 'https://scholarcommons.sc.edu/etd/6728/',
-    },
+   {
+      title: 'Mathematical Research',
+      imgUrl: '/assets/GLIF.png',
+      stack: ['Applied Mathematics', 'Computational Neuroscience', 'MatLab', 'Differential Equations'],
+      link: 'https://github.com/Zacharahman/GLIF',
+   },
+   
     {
        title: 'Developer Portfolio',
        imgUrl: '/assets/pf.png',
@@ -25,11 +26,12 @@ export default [
      },
 
      {
-      title: 'Mathematical Research',
-      imgUrl: '/assets/GLIF.png',
-      stack: ['Applied Mathematics', 'Computational Neuroscience', 'C', 'MatLab', 'Differential Equations'],
-      link: 'https://github.com/Zacharahman/GLIF',
-   },
+      title: 'Aedes Mobile Appliclation',
+      imgUrl: '/assets/AEDES.png',
+      stack: ['Vue', 'JavaScript', 'Node.js'],
+      link: 'https://scholarcommons.sc.edu/etd/6728/',
+     },
+
      {
         title: 'Stock Trading Bot',
         imgUrl: '/assets/tb.png',

@@ -11,7 +11,7 @@ export default [
         title: 'Mathematics Researcher',
         duration: '8 mos',
         details:
-        'Optimizing Computational Neuroscience Models'
+        'Optimizing Neural Netowrks'
     },
     {
         year: 'Today',
