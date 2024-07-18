@@ -15,8 +15,9 @@ function Intro() {
                className="text-red-700 hover:underline underline-offset-2 decoration-2 decoration-red-700"
                rel="noreferrer noopener"
             >
-              <u> Tutoring </u> 
+              <u> Here </u> 
             </a>{''}
+            <br />
              Check out my math blog to stay up to date {''}
             <a
                href="https://zacharahman.github.io/TheMathMatrix.github.io/"
@@ -24,7 +25,7 @@ function Intro() {
                className="text-red-700 hover:underline underline-offset-2 decoration-2 decoration-red-700"
                rel="noreferrer noopener"
             >
-              <u> Math Blog </u> 
+              <u> Here </u> 
             </a>{''}
             
          </p>
